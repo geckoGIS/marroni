@@ -43,7 +43,7 @@ class _DetailScreenState extends State<DetailScreen>
         headerSliverBuilder: (BuildContext context, bool innerViewIsScrolled) {
           return <Widget>[
             SliverAppBar(
-              backgroundColor: Colors.red,
+              backgroundColor: Colors.green,
               flexibleSpace: FlexibleSpaceBar(
                 collapseMode: CollapseMode.pin,
                 background: Column(
